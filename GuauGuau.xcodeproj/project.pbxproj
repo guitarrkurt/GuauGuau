@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61F6E7631C3E138800A2E987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E7621C3E138800A2E987 /* AppDelegate.swift */; };
+		61F6E7651C3E138800A2E987 /* AnimalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E7641C3E138800A2E987 /* AnimalesViewController.swift */; };
+		61F6E7681C3E138800A2E987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7661C3E138800A2E987 /* Main.storyboard */; };
+		61F6E76A1C3E138800A2E987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7691C3E138800A2E987 /* Assets.xcassets */; };
+		61F6E76D1C3E138800A2E987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E76B1C3E138800A2E987 /* LaunchScreen.storyboard */; };
+		61F6E7751C3E14B700A2E987 /* perro.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7741C3E14B700A2E987 /* perro.png */; };
+		61F6E7771C3E17A500A2E987 /* AnimalesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E7761C3E17A500A2E987 /* AnimalesCollectionViewCell.swift */; };
+		61F6E78D1C3E1BAB00A2E987 /* abeja.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7781C3E1BAB00A2E987 /* abeja.png */; };
+		61F6E78E1C3E1BAB00A2E987 /* aguila.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7791C3E1BAB00A2E987 /* aguila.png */; };
+		61F6E78F1C3E1BAB00A2E987 /* buho.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E77A1C3E1BAB00A2E987 /* buho.png */; };
+		61F6E7901C3E1BAB00A2E987 /* caballo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E77B1C3E1BAB00A2E987 /* caballo.png */; };
+		61F6E7911C3E1BAB00A2E987 /* cerdo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E77C1C3E1BAB00A2E987 /* cerdo.png */; };
+		61F6E7931C3E1BAB00A2E987 /* gallo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E77E1C3E1BAB00A2E987 /* gallo.png */; };
+		61F6E7941C3E1BAB00A2E987 /* gato.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E77F1C3E1BAB00A2E987 /* gato.png */; };
+		61F6E7951C3E1BAB00A2E987 /* grillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7801C3E1BAB00A2E987 /* grillo.png */; };
+		61F6E7961C3E1BAB00A2E987 /* leon.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7811C3E1BAB00A2E987 /* leon.png */; };
+		61F6E7971C3E1BAB00A2E987 /* lobo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7821C3E1BAB00A2E987 /* lobo.png */; };
+		61F6E7981C3E1BAB00A2E987 /* mono.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7831C3E1BAB00A2E987 /* mono.png */; };
+		61F6E7991C3E1BAB00A2E987 /* oveja.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7841C3E1BAB00A2E987 /* oveja.png */; };
+		61F6E79A1C3E1BAB00A2E987 /* pato.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7851C3E1BAB00A2E987 /* pato.png */; };
+		61F6E79B1C3E1BAB00A2E987 /* perico.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7861C3E1BAB00A2E987 /* perico.png */; };
+		61F6E79C1C3E1BAB00A2E987 /* pez.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7871C3E1BAB00A2E987 /* pez.png */; };
+		61F6E79D1C3E1BAB00A2E987 /* pollo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7881C3E1BAB00A2E987 /* pollo.png */; };
+		61F6E79E1C3E1BAB00A2E987 /* rana.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7891C3E1BAB00A2E987 /* rana.png */; };
+		61F6E79F1C3E1BAB00A2E987 /* serpiente.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E78A1C3E1BAB00A2E987 /* serpiente.png */; };
+		61F6E7A01C3E1BAB00A2E987 /* tigre.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E78B1C3E1BAB00A2E987 /* tigre.png */; };
+		61F6E7A11C3E1BAB00A2E987 /* vaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E78C1C3E1BAB00A2E987 /* vaca.png */; };
+		61F6E7A31C3E27FE00A2E987 /* elefante.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7A21C3E27FE00A2E987 /* elefante.png */; };
+		61F6E7A51C3E3ED100A2E987 /* oso.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7A41C3E3ED100A2E987 /* oso.png */; };
+		61F6E7A71C3E3F6800A2E987 /* cabra.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7A61C3E3F6800A2E987 /* cabra.png */; };
+		61F6E7A91C3E409300A2E987 /* EfectoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F6E7A81C3E409300A2E987 /* EfectoViewController.swift */; };
+		61F6E7AE1C3EEB8100A2E987 /* launchimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7AD1C3EEB8100A2E987 /* launchimage.jpg */; };
+		61F6E7CE1C3EEBEF00A2E987 /* rana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7AF1C3EEBEF00A2E987 /* rana.mp3 */; };
+		61F6E7CF1C3EEBEF00A2E987 /* lobo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B01C3EEBEF00A2E987 /* lobo.mp3 */; };
+		61F6E7D01C3EEBEF00A2E987 /* grillo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B11C3EEBEF00A2E987 /* grillo.mp3 */; };
+		61F6E7D11C3EEBEF00A2E987 /* sonidoSelva.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B21C3EEBEF00A2E987 /* sonidoSelva.mp3 */; };
+		61F6E7D21C3EEBEF00A2E987 /* rinoceronte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B31C3EEBEF00A2E987 /* rinoceronte.mp3 */; };
+		61F6E7D31C3EEBEF00A2E987 /* gaviota.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B41C3EEBEF00A2E987 /* gaviota.mp3 */; };
+		61F6E7D41C3EEBEF00A2E987 /* abeja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B51C3EEBEF00A2E987 /* abeja.mp3 */; };
+		61F6E7D51C3EEBEF00A2E987 /* loro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B61C3EEBEF00A2E987 /* loro.mp3 */; };
+		61F6E7D61C3EEBEF00A2E987 /* pollo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B71C3EEBEF00A2E987 /* pollo.mp3 */; };
+		61F6E7D71C3EEBEF00A2E987 /* oveja.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B81C3EEBEF00A2E987 /* oveja.mp3 */; };
+		61F6E7D81C3EEBEF00A2E987 /* oveja2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7B91C3EEBEF00A2E987 /* oveja2.mp3 */; };
+		61F6E7D91C3EEBEF00A2E987 /* leopardo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7BA1C3EEBEF00A2E987 /* leopardo.mp3 */; };
+		61F6E7DA1C3EEBEF00A2E987 /* aguila.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7BB1C3EEBEF00A2E987 /* aguila.mp3 */; };
+		61F6E7DB1C3EEBEF00A2E987 /* vivora.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7BC1C3EEBEF00A2E987 /* vivora.mp3 */; };
+		61F6E7DC1C3EEBEF00A2E987 /* buho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7BD1C3EEBEF00A2E987 /* buho.mp3 */; };
+		61F6E7DD1C3EEBEF00A2E987 /* canario.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7BE1C3EEBEF00A2E987 /* canario.mp3 */; };
+		61F6E7DE1C3EEBEF00A2E987 /* mono.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7BF1C3EEBEF00A2E987 /* mono.mp3 */; };
+		61F6E7DF1C3EEBEF00A2E987 /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C01C3EEBEF00A2E987 /* vaca.mp3 */; };
+		61F6E7E01C3EEBEF00A2E987 /* gallina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C11C3EEBEF00A2E987 /* gallina.mp3 */; };
+		61F6E7E11C3EEBEF00A2E987 /* perro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C21C3EEBEF00A2E987 /* perro.mp3 */; };
+		61F6E7E21C3EEBEF00A2E987 /* gorila.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C31C3EEBEF00A2E987 /* gorila.mp3 */; };
+		61F6E7E31C3EEBEF00A2E987 /* pato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C41C3EEBEF00A2E987 /* pato.mp3 */; };
+		61F6E7E41C3EEBEF00A2E987 /* tigre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C51C3EEBEF00A2E987 /* tigre.mp3 */; };
+		61F6E7E51C3EEBEF00A2E987 /* caballo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C61C3EEBEF00A2E987 /* caballo.mp3 */; };
+		61F6E7E61C3EEBEF00A2E987 /* leon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C71C3EEBEF00A2E987 /* leon.mp3 */; };
+		61F6E7E71C3EEBEF00A2E987 /* cabra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C81C3EEBEF00A2E987 /* cabra.mp3 */; };
+		61F6E7E81C3EEBEF00A2E987 /* gallo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7C91C3EEBEF00A2E987 /* gallo.mp3 */; };
+		61F6E7E91C3EEBEF00A2E987 /* elefante.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7CA1C3EEBEF00A2E987 /* elefante.mp3 */; };
+		61F6E7EA1C3EEBEF00A2E987 /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7CB1C3EEBEF00A2E987 /* gato.mp3 */; };
+		61F6E7EB1C3EEBEF00A2E987 /* oso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7CC1C3EEBEF00A2E987 /* oso.mp3 */; };
+		61F6E7EC1C3EEBEF00A2E987 /* cerdo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61F6E7CD1C3EEBEF00A2E987 /* cerdo.mp3 */; };
+		61F6E7EE1C3EEC8A00A2E987 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F6E7ED1C3EEC8A00A2E987 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61F6E75F1C3E138800A2E987 /* GuauGuau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuauGuau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F6E7621C3E138800A2E987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61F6E7641C3E138800A2E987 /* AnimalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalesViewController.swift; sourceTree = "<group>"; };
+		61F6E7671C3E138800A2E987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61F6E7691C3E138800A2E987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F6E76C1C3E138800A2E987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61F6E76E1C3E138800A2E987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F6E7741C3E14B700A2E987 /* perro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perro.png; sourceTree = "<group>"; };
+		61F6E7761C3E17A500A2E987 /* AnimalesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalesCollectionViewCell.swift; sourceTree = "<group>"; };
+		61F6E7781C3E1BAB00A2E987 /* abeja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abeja.png; sourceTree = "<group>"; };
+		61F6E7791C3E1BAB00A2E987 /* aguila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguila.png; sourceTree = "<group>"; };
+		61F6E77A1C3E1BAB00A2E987 /* buho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buho.png; sourceTree = "<group>"; };
+		61F6E77B1C3E1BAB00A2E987 /* caballo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caballo.png; sourceTree = "<group>"; };
+		61F6E77C1C3E1BAB00A2E987 /* cerdo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cerdo.png; sourceTree = "<group>"; };
+		61F6E77E1C3E1BAB00A2E987 /* gallo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallo.png; sourceTree = "<group>"; };
+		61F6E77F1C3E1BAB00A2E987 /* gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gato.png; sourceTree = "<group>"; };
+		61F6E7801C3E1BAB00A2E987 /* grillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grillo.png; sourceTree = "<group>"; };
+		61F6E7811C3E1BAB00A2E987 /* leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leon.png; sourceTree = "<group>"; };
+		61F6E7821C3E1BAB00A2E987 /* lobo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lobo.png; sourceTree = "<group>"; };
+		61F6E7831C3E1BAB00A2E987 /* mono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mono.png; sourceTree = "<group>"; };
+		61F6E7841C3E1BAB00A2E987 /* oveja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oveja.png; sourceTree = "<group>"; };
+		61F6E7851C3E1BAB00A2E987 /* pato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pato.png; sourceTree = "<group>"; };
+		61F6E7861C3E1BAB00A2E987 /* perico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perico.png; sourceTree = "<group>"; };
+		61F6E7871C3E1BAB00A2E987 /* pez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pez.png; sourceTree = "<group>"; };
+		61F6E7881C3E1BAB00A2E987 /* pollo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollo.png; sourceTree = "<group>"; };
+		61F6E7891C3E1BAB00A2E987 /* rana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rana.png; sourceTree = "<group>"; };
+		61F6E78A1C3E1BAB00A2E987 /* serpiente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serpiente.png; sourceTree = "<group>"; };
+		61F6E78B1C3E1BAB00A2E987 /* tigre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tigre.png; sourceTree = "<group>"; };
+		61F6E78C1C3E1BAB00A2E987 /* vaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vaca.png; sourceTree = "<group>"; };
+		61F6E7A21C3E27FE00A2E987 /* elefante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elefante.png; sourceTree = "<group>"; };
+		61F6E7A41C3E3ED100A2E987 /* oso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oso.png; sourceTree = "<group>"; };
+		61F6E7A61C3E3F6800A2E987 /* cabra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabra.png; sourceTree = "<group>"; };
+		61F6E7A81C3E409300A2E987 /* EfectoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EfectoViewController.swift; sourceTree = "<group>"; };
+		61F6E7AD1C3EEB8100A2E987 /* launchimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchimage.jpg; sourceTree = "<group>"; };
+		61F6E7AF1C3EEBEF00A2E987 /* rana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rana.mp3; sourceTree = "<group>"; };
+		61F6E7B01C3EEBEF00A2E987 /* lobo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lobo.mp3; sourceTree = "<group>"; };
+		61F6E7B11C3EEBEF00A2E987 /* grillo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grillo.mp3; sourceTree = "<group>"; };
+		61F6E7B21C3EEBEF00A2E987 /* sonidoSelva.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonidoSelva.mp3; sourceTree = "<group>"; };
+		61F6E7B31C3EEBEF00A2E987 /* rinoceronte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rinoceronte.mp3; sourceTree = "<group>"; };
+		61F6E7B41C3EEBEF00A2E987 /* gaviota.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gaviota.mp3; sourceTree = "<group>"; };
+		61F6E7B51C3EEBEF00A2E987 /* abeja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = abeja.mp3; sourceTree = "<group>"; };
+		61F6E7B61C3EEBEF00A2E987 /* loro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loro.mp3; sourceTree = "<group>"; };
+		61F6E7B71C3EEBEF00A2E987 /* pollo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pollo.mp3; sourceTree = "<group>"; };
+		61F6E7B81C3EEBEF00A2E987 /* oveja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oveja.mp3; sourceTree = "<group>"; };
+		61F6E7B91C3EEBEF00A2E987 /* oveja2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oveja2.mp3; sourceTree = "<group>"; };
+		61F6E7BA1C3EEBEF00A2E987 /* leopardo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leopardo.mp3; sourceTree = "<group>"; };
+		61F6E7BB1C3EEBEF00A2E987 /* aguila.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aguila.mp3; sourceTree = "<group>"; };
+		61F6E7BC1C3EEBEF00A2E987 /* vivora.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivora.mp3; sourceTree = "<group>"; };
+		61F6E7BD1C3EEBEF00A2E987 /* buho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buho.mp3; sourceTree = "<group>"; };
+		61F6E7BE1C3EEBEF00A2E987 /* canario.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = canario.mp3; sourceTree = "<group>"; };
+		61F6E7BF1C3EEBEF00A2E987 /* mono.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mono.mp3; sourceTree = "<group>"; };
+		61F6E7C01C3EEBEF00A2E987 /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
+		61F6E7C11C3EEBEF00A2E987 /* gallina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gallina.mp3; sourceTree = "<group>"; };
+		61F6E7C21C3EEBEF00A2E987 /* perro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perro.mp3; sourceTree = "<group>"; };
+		61F6E7C31C3EEBEF00A2E987 /* gorila.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gorila.mp3; sourceTree = "<group>"; };
+		61F6E7C41C3EEBEF00A2E987 /* pato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pato.mp3; sourceTree = "<group>"; };
+		61F6E7C51C3EEBEF00A2E987 /* tigre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tigre.mp3; sourceTree = "<group>"; };
+		61F6E7C61C3EEBEF00A2E987 /* caballo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caballo.mp3; sourceTree = "<group>"; };
+		61F6E7C71C3EEBEF00A2E987 /* leon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leon.mp3; sourceTree = "<group>"; };
+		61F6E7C81C3EEBEF00A2E987 /* cabra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cabra.mp3; sourceTree = "<group>"; };
+		61F6E7C91C3EEBEF00A2E987 /* gallo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gallo.mp3; sourceTree = "<group>"; };
+		61F6E7CA1C3EEBEF00A2E987 /* elefante.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elefante.mp3; sourceTree = "<group>"; };
+		61F6E7CB1C3EEBEF00A2E987 /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		61F6E7CC1C3EEBEF00A2E987 /* oso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oso.mp3; sourceTree = "<group>"; };
+		61F6E7CD1C3EEBEF00A2E987 /* cerdo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cerdo.mp3; sourceTree = "<group>"; };
+		61F6E7ED1C3EEC8A00A2E987 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F6E75C1C3E138800A2E987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F6E7EE1C3EEC8A00A2E987 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61F6E7561C3E138800A2E987 = {
+			isa = PBXGroup;
+			children = (
+				61F6E7ED1C3EEC8A00A2E987 /* AVFoundation.framework */,
+				61F6E7611C3E138800A2E987 /* GuauGuau */,
+				61F6E7601C3E138800A2E987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61F6E7601C3E138800A2E987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F6E75F1C3E138800A2E987 /* GuauGuau.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F6E7611C3E138800A2E987 /* GuauGuau */ = {
+			isa = PBXGroup;
+			children = (
+				61F6E7AA1C3EEB3200A2E987 /* New Group */,
+			);
+			path = GuauGuau;
+			sourceTree = "<group>";
+		};
+		61F6E7AA1C3EEB3200A2E987 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				61F6E7621C3E138800A2E987 /* AppDelegate.swift */,
+				61F6E7761C3E17A500A2E987 /* AnimalesCollectionViewCell.swift */,
+				61F6E7641C3E138800A2E987 /* AnimalesViewController.swift */,
+				61F6E7A81C3E409300A2E987 /* EfectoViewController.swift */,
+				61F6E7661C3E138800A2E987 /* Main.storyboard */,
+				61F6E7691C3E138800A2E987 /* Assets.xcassets */,
+				61F6E76B1C3E138800A2E987 /* LaunchScreen.storyboard */,
+				61F6E76E1C3E138800A2E987 /* Info.plist */,
+				61F6E7AC1C3EEB6300A2E987 /* Imagenes */,
+				61F6E7AB1C3EEB4700A2E987 /* Sonidos */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		61F6E7AB1C3EEB4700A2E987 /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				61F6E7AF1C3EEBEF00A2E987 /* rana.mp3 */,
+				61F6E7B01C3EEBEF00A2E987 /* lobo.mp3 */,
+				61F6E7B11C3EEBEF00A2E987 /* grillo.mp3 */,
+				61F6E7B21C3EEBEF00A2E987 /* sonidoSelva.mp3 */,
+				61F6E7B31C3EEBEF00A2E987 /* rinoceronte.mp3 */,
+				61F6E7B41C3EEBEF00A2E987 /* gaviota.mp3 */,
+				61F6E7B51C3EEBEF00A2E987 /* abeja.mp3 */,
+				61F6E7B61C3EEBEF00A2E987 /* loro.mp3 */,
+				61F6E7B71C3EEBEF00A2E987 /* pollo.mp3 */,
+				61F6E7B81C3EEBEF00A2E987 /* oveja.mp3 */,
+				61F6E7B91C3EEBEF00A2E987 /* oveja2.mp3 */,
+				61F6E7BA1C3EEBEF00A2E987 /* leopardo.mp3 */,
+				61F6E7BB1C3EEBEF00A2E987 /* aguila.mp3 */,
+				61F6E7BC1C3EEBEF00A2E987 /* vivora.mp3 */,
+				61F6E7BD1C3EEBEF00A2E987 /* buho.mp3 */,
+				61F6E7BE1C3EEBEF00A2E987 /* canario.mp3 */,
+				61F6E7BF1C3EEBEF00A2E987 /* mono.mp3 */,
+				61F6E7C01C3EEBEF00A2E987 /* vaca.mp3 */,
+				61F6E7C11C3EEBEF00A2E987 /* gallina.mp3 */,
+				61F6E7C21C3EEBEF00A2E987 /* perro.mp3 */,
+				61F6E7C31C3EEBEF00A2E987 /* gorila.mp3 */,
+				61F6E7C41C3EEBEF00A2E987 /* pato.mp3 */,
+				61F6E7C51C3EEBEF00A2E987 /* tigre.mp3 */,
+				61F6E7C61C3EEBEF00A2E987 /* caballo.mp3 */,
+				61F6E7C71C3EEBEF00A2E987 /* leon.mp3 */,
+				61F6E7C81C3EEBEF00A2E987 /* cabra.mp3 */,
+				61F6E7C91C3EEBEF00A2E987 /* gallo.mp3 */,
+				61F6E7CA1C3EEBEF00A2E987 /* elefante.mp3 */,
+				61F6E7CB1C3EEBEF00A2E987 /* gato.mp3 */,
+				61F6E7CC1C3EEBEF00A2E987 /* oso.mp3 */,
+				61F6E7CD1C3EEBEF00A2E987 /* cerdo.mp3 */,
+			);
+			name = Sonidos;
+			sourceTree = "<group>";
+		};
+		61F6E7AC1C3EEB6300A2E987 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				61F6E7AD1C3EEB8100A2E987 /* launchimage.jpg */,
+				61F6E7A61C3E3F6800A2E987 /* cabra.png */,
+				61F6E7A41C3E3ED100A2E987 /* oso.png */,
+				61F6E7741C3E14B700A2E987 /* perro.png */,
+				61F6E7781C3E1BAB00A2E987 /* abeja.png */,
+				61F6E7791C3E1BAB00A2E987 /* aguila.png */,
+				61F6E77A1C3E1BAB00A2E987 /* buho.png */,
+				61F6E77B1C3E1BAB00A2E987 /* caballo.png */,
+				61F6E77C1C3E1BAB00A2E987 /* cerdo.png */,
+				61F6E7A21C3E27FE00A2E987 /* elefante.png */,
+				61F6E77E1C3E1BAB00A2E987 /* gallo.png */,
+				61F6E77F1C3E1BAB00A2E987 /* gato.png */,
+				61F6E7801C3E1BAB00A2E987 /* grillo.png */,
+				61F6E7811C3E1BAB00A2E987 /* leon.png */,
+				61F6E7821C3E1BAB00A2E987 /* lobo.png */,
+				61F6E7831C3E1BAB00A2E987 /* mono.png */,
+				61F6E7841C3E1BAB00A2E987 /* oveja.png */,
+				61F6E7851C3E1BAB00A2E987 /* pato.png */,
+				61F6E7861C3E1BAB00A2E987 /* perico.png */,
+				61F6E7871C3E1BAB00A2E987 /* pez.png */,
+				61F6E7881C3E1BAB00A2E987 /* pollo.png */,
+				61F6E7891C3E1BAB00A2E987 /* rana.png */,
+				61F6E78A1C3E1BAB00A2E987 /* serpiente.png */,
+				61F6E78B1C3E1BAB00A2E987 /* tigre.png */,
+				61F6E78C1C3E1BAB00A2E987 /* vaca.png */,
+			);
+			name = Imagenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F6E75E1C3E138800A2E987 /* GuauGuau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F6E7711C3E138800A2E987 /* Build configuration list for PBXNativeTarget "GuauGuau" */;
+			buildPhases = (
+				61F6E75B1C3E138800A2E987 /* Sources */,
+				61F6E75C1C3E138800A2E987 /* Frameworks */,
+				61F6E75D1C3E138800A2E987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuauGuau;
+			productName = GuauGuau;
+			productReference = 61F6E75F1C3E138800A2E987 /* GuauGuau.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F6E7571C3E138800A2E987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = guitarrkurt;
+				TargetAttributes = {
+					61F6E75E1C3E138800A2E987 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 61F6E75A1C3E138800A2E987 /* Build configuration list for PBXProject "GuauGuau" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F6E7561C3E138800A2E987;
+			productRefGroup = 61F6E7601C3E138800A2E987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F6E75E1C3E138800A2E987 /* GuauGuau */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F6E75D1C3E138800A2E987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F6E7911C3E1BAB00A2E987 /* cerdo.png in Resources */,
+				61F6E7751C3E14B700A2E987 /* perro.png in Resources */,
+				61F6E7D51C3EEBEF00A2E987 /* loro.mp3 in Resources */,
+				61F6E7941C3E1BAB00A2E987 /* gato.png in Resources */,
+				61F6E76D1C3E138800A2E987 /* LaunchScreen.storyboard in Resources */,
+				61F6E7D81C3EEBEF00A2E987 /* oveja2.mp3 in Resources */,
+				61F6E7E21C3EEBEF00A2E987 /* gorila.mp3 in Resources */,
+				61F6E7E51C3EEBEF00A2E987 /* caballo.mp3 in Resources */,
+				61F6E7E01C3EEBEF00A2E987 /* gallina.mp3 in Resources */,
+				61F6E7981C3E1BAB00A2E987 /* mono.png in Resources */,
+				61F6E79D1C3E1BAB00A2E987 /* pollo.png in Resources */,
+				61F6E7991C3E1BAB00A2E987 /* oveja.png in Resources */,
+				61F6E78E1C3E1BAB00A2E987 /* aguila.png in Resources */,
+				61F6E7AE1C3EEB8100A2E987 /* launchimage.jpg in Resources */,
+				61F6E7E91C3EEBEF00A2E987 /* elefante.mp3 in Resources */,
+				61F6E7DE1C3EEBEF00A2E987 /* mono.mp3 in Resources */,
+				61F6E7DC1C3EEBEF00A2E987 /* buho.mp3 in Resources */,
+				61F6E7EA1C3EEBEF00A2E987 /* gato.mp3 in Resources */,
+				61F6E79B1C3E1BAB00A2E987 /* perico.png in Resources */,
+				61F6E7E31C3EEBEF00A2E987 /* pato.mp3 in Resources */,
+				61F6E7D31C3EEBEF00A2E987 /* gaviota.mp3 in Resources */,
+				61F6E7A51C3E3ED100A2E987 /* oso.png in Resources */,
+				61F6E7A31C3E27FE00A2E987 /* elefante.png in Resources */,
+				61F6E7D41C3EEBEF00A2E987 /* abeja.mp3 in Resources */,
+				61F6E79C1C3E1BAB00A2E987 /* pez.png in Resources */,
+				61F6E7D71C3EEBEF00A2E987 /* oveja.mp3 in Resources */,
+				61F6E7A11C3E1BAB00A2E987 /* vaca.png in Resources */,
+				61F6E7951C3E1BAB00A2E987 /* grillo.png in Resources */,
+				61F6E7961C3E1BAB00A2E987 /* leon.png in Resources */,
+				61F6E79F1C3E1BAB00A2E987 /* serpiente.png in Resources */,
+				61F6E7EB1C3EEBEF00A2E987 /* oso.mp3 in Resources */,
+				61F6E76A1C3E138800A2E987 /* Assets.xcassets in Resources */,
+				61F6E79A1C3E1BAB00A2E987 /* pato.png in Resources */,
+				61F6E7E61C3EEBEF00A2E987 /* leon.mp3 in Resources */,
+				61F6E7901C3E1BAB00A2E987 /* caballo.png in Resources */,
+				61F6E7D11C3EEBEF00A2E987 /* sonidoSelva.mp3 in Resources */,
+				61F6E7D61C3EEBEF00A2E987 /* pollo.mp3 in Resources */,
+				61F6E7DA1C3EEBEF00A2E987 /* aguila.mp3 in Resources */,
+				61F6E7CE1C3EEBEF00A2E987 /* rana.mp3 in Resources */,
+				61F6E78D1C3E1BAB00A2E987 /* abeja.png in Resources */,
+				61F6E7971C3E1BAB00A2E987 /* lobo.png in Resources */,
+				61F6E7931C3E1BAB00A2E987 /* gallo.png in Resources */,
+				61F6E7EC1C3EEBEF00A2E987 /* cerdo.mp3 in Resources */,
+				61F6E7D01C3EEBEF00A2E987 /* grillo.mp3 in Resources */,
+				61F6E7D91C3EEBEF00A2E987 /* leopardo.mp3 in Resources */,
+				61F6E7681C3E138800A2E987 /* Main.storyboard in Resources */,
+				61F6E78F1C3E1BAB00A2E987 /* buho.png in Resources */,
+				61F6E7CF1C3EEBEF00A2E987 /* lobo.mp3 in Resources */,
+				61F6E79E1C3E1BAB00A2E987 /* rana.png in Resources */,
+				61F6E7A71C3E3F6800A2E987 /* cabra.png in Resources */,
+				61F6E7E81C3EEBEF00A2E987 /* gallo.mp3 in Resources */,
+				61F6E7E41C3EEBEF00A2E987 /* tigre.mp3 in Resources */,
+				61F6E7DB1C3EEBEF00A2E987 /* vivora.mp3 in Resources */,
+				61F6E7A01C3E1BAB00A2E987 /* tigre.png in Resources */,
+				61F6E7DF1C3EEBEF00A2E987 /* vaca.mp3 in Resources */,
+				61F6E7DD1C3EEBEF00A2E987 /* canario.mp3 in Resources */,
+				61F6E7D21C3EEBEF00A2E987 /* rinoceronte.mp3 in Resources */,
+				61F6E7E71C3EEBEF00A2E987 /* cabra.mp3 in Resources */,
+				61F6E7E11C3EEBEF00A2E987 /* perro.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F6E75B1C3E138800A2E987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F6E7651C3E138800A2E987 /* AnimalesViewController.swift in Sources */,
+				61F6E7631C3E138800A2E987 /* AppDelegate.swift in Sources */,
+				61F6E7A91C3E409300A2E987 /* EfectoViewController.swift in Sources */,
+				61F6E7771C3E17A500A2E987 /* AnimalesCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61F6E7661C3E138800A2E987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F6E7671C3E138800A2E987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61F6E76B1C3E138800A2E987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61F6E76C1C3E138800A2E987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61F6E76F1C3E138800A2E987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61F6E7701C3E138800A2E987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F6E7721C3E138800A2E987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuauGuau/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.buap.cs.ilab.GuauGuau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61F6E7731C3E138800A2E987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuauGuau/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.buap.cs.ilab.GuauGuau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F6E75A1C3E138800A2E987 /* Build configuration list for PBXProject "GuauGuau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F6E76F1C3E138800A2E987 /* Debug */,
+				61F6E7701C3E138800A2E987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F6E7711C3E138800A2E987 /* Build configuration list for PBXNativeTarget "GuauGuau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F6E7721C3E138800A2E987 /* Debug */,
+				61F6E7731C3E138800A2E987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F6E7571C3E138800A2E987 /* Project object */;
+}

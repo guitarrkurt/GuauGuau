@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JmS-cY-aY6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Animales View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AnimalesViewController" customModule="GuauGuau" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YG8-ny-IV6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.81176470588235294" green="0.9882352941176471" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jjb-hb-y4G">
+                                    <size key="itemSize" width="233" height="233"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnimalIdentifier" id="tNs-Ae-AqJ" customClass="AnimalesCollectionViewCell" customModule="GuauGuau" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="64" width="233" height="233"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="233" height="233"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perro.png" translatesAutoresizingMaskIntoConstraints="NO" id="WTz-lX-fSv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="233" height="233"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PERRO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6w-9k-HSJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="233" height="40"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="XGd-7B-9Yb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="21"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                        <constraints>
+                                            <constraint firstItem="WTz-lX-fSv" firstAttribute="top" secondItem="u6w-9k-HSJ" secondAttribute="top" id="4zB-q3-XH6"/>
+                                            <constraint firstItem="u6w-9k-HSJ" firstAttribute="top" secondItem="tNs-Ae-AqJ" secondAttribute="top" id="SXI-JL-TfQ"/>
+                                            <constraint firstItem="WTz-lX-fSv" firstAttribute="leading" secondItem="tNs-Ae-AqJ" secondAttribute="leading" id="i2V-nL-uBS"/>
+                                            <constraint firstAttribute="trailing" secondItem="u6w-9k-HSJ" secondAttribute="trailing" id="kwA-AY-9Bq"/>
+                                            <constraint firstItem="WTz-lX-fSv" firstAttribute="leading" secondItem="u6w-9k-HSJ" secondAttribute="leading" id="kyu-Ku-9iw"/>
+                                            <constraint firstItem="WTz-lX-fSv" firstAttribute="trailing" secondItem="u6w-9k-HSJ" secondAttribute="trailing" id="pnT-wG-7LX"/>
+                                            <constraint firstAttribute="bottom" secondItem="WTz-lX-fSv" secondAttribute="bottom" id="x2g-nL-jMM"/>
+                                        </constraints>
+                                        <size key="customSize" width="233" height="233"/>
+                                        <connections>
+                                            <outlet property="etiqueta" destination="u6w-9k-HSJ" id="sfD-LV-skX"/>
+                                            <outlet property="imageView" destination="WTz-lX-fSv" id="R4j-e0-NRn"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="K2r-aB-Mg4"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="42a-dy-knV"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YG8-ny-IV6" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="WJu-mk-hhb"/>
+                            <constraint firstItem="YG8-ny-IV6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="buR-Lt-I43"/>
+                            <constraint firstAttribute="trailing" secondItem="YG8-ny-IV6" secondAttribute="trailing" id="iPD-g3-FAQ"/>
+                            <constraint firstItem="YG8-ny-IV6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tjN-Bm-pU9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0gJ-bn-zQH"/>
+                    <connections>
+                        <outlet property="View" destination="8bC-Xf-vdC" id="2cl-pm-Zj2"/>
+                        <outlet property="ViewContenedorBack" destination="8bC-Xf-vdC" id="Nz2-2j-Uun"/>
+                        <outlet property="animalesCollectionView" destination="YG8-ny-IV6" id="fW4-IO-AKV"/>
+                        <segue destination="gBC-bj-NbU" kind="show" identifier="EfectosIdentifier" id="3it-bG-dyA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="337"/>
+        </scene>
+        <!--Efecto View Controller-->
+        <scene sceneID="8VW-uY-nD2">
+            <objects>
+                <viewController id="gBC-bj-NbU" customClass="EfectoViewController" customModule="GuauGuau" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aR8-nR-IGh"/>
+                        <viewControllerLayoutGuide type="bottom" id="gTR-xR-Xfo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VVU-8D-SYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perro.png" translatesAutoresizingMaskIntoConstraints="NO" id="FzN-tS-A6I">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fs-qR-qUV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="botonClicked:" destination="gBC-bj-NbU" eventType="touchUpInside" id="jY0-Pm-Xhl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.77254901960784317" green="0.9882352941176471" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FzN-tS-A6I" firstAttribute="leading" secondItem="8fs-qR-qUV" secondAttribute="leading" id="OCM-Sd-EhG"/>
+                            <constraint firstItem="FzN-tS-A6I" firstAttribute="leading" secondItem="VVU-8D-SYQ" secondAttribute="leading" id="PpX-b4-Lz5"/>
+                            <constraint firstItem="8fs-qR-qUV" firstAttribute="top" secondItem="FzN-tS-A6I" secondAttribute="top" id="fCM-WC-QMf"/>
+                            <constraint firstItem="8fs-qR-qUV" firstAttribute="bottom" secondItem="gTR-xR-Xfo" secondAttribute="top" id="ggt-f0-lVX"/>
+                            <constraint firstItem="FzN-tS-A6I" firstAttribute="top" secondItem="VVU-8D-SYQ" secondAttribute="top" id="hqF-YP-K2E"/>
+                            <constraint firstItem="FzN-tS-A6I" firstAttribute="trailing" secondItem="8fs-qR-qUV" secondAttribute="trailing" id="icZ-X4-nfW"/>
+                            <constraint firstItem="FzN-tS-A6I" firstAttribute="bottom" secondItem="gTR-xR-Xfo" secondAttribute="top" id="kHb-Ao-dfk"/>
+                            <constraint firstAttribute="trailing" secondItem="FzN-tS-A6I" secondAttribute="trailing" id="sKS-5i-qkc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="boton" destination="8fs-qR-qUV" id="6Vx-UO-9SU"/>
+                        <outlet property="imagen" destination="FzN-tS-A6I" id="9zl-Vu-Q2X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3OO-C4-TTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715" y="337"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MkM-Xo-WXM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JmS-cY-aY6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ONy-d4-zTv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="76C-GJ-NUV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1kZ-9k-lsB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="perro.png" width="596" height="800"/>
+    </resources>
+</document>
